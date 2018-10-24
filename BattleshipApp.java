@@ -58,7 +58,7 @@ public class BattleshipApp {
                     firstPlayer.markShoot(sField);
                     break;
                 default:
-                    System.err.println("Nie wiem o co kaman z tym: " + result);
+                    System.err.println("Something gets wrong" + result);
             }
             System.out.println(result);
             System.out.println(firstPlayer.getShootingBoard());
